@@ -1,0 +1,113 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./background.jpg");
+    background-color: black;
+}
+
+.header img {
+    height: 100px;
+    width: 110px;
+}
+
+.header h1 {
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.336);
+    border-top: 2px solid #CFD2D9;
+    padding: 15px 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 50px;
+    width: 90%;
+    color: #CFD2D9;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.336);
+    border-bottom: 2px solid #CFD2D9;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 90%;
+}
+
+#memepreview{
+    height: 300px;
+    width: auto;
+    margin: 30px;
+    border: #ffffff 5px solid;
+    border-radius: 30px;
+    transition: transform 0.2s;
+}
+
+.editform{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+input{
+    height: 30px;
+    width: 20%;
+    align-self: center;
+    margin-bottom: 20px;
+    border: #ffffff 2px solid;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Nunito';
+    background-color: white;
+    transition: transform 0.2s;
+}
+
+#upperText{
+    margin-right: 30px;
+}
+
+#memifybtn{
+    width: 20%;
+    font-size: large;
+    border-radius: 10px;
+    border: #CFD2D9 1px solid;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    background-color: #F6D5B6;
+    color: #D34B63;
+    transition: transform 0.2s;
+}
+
+#memifybtn:hover {
+    transform: scale(1.05);
+}
+
+input:hover {
+    transform: scale(1.05);
+}
+
+#memepreview:hover {
+    transform: scale(1.05);
+}
